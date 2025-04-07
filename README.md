@@ -9,8 +9,8 @@
 ## ✨ Why CodeArena?
 
 <div align="center">
-  <img src="/images/problem-solving.png" alt="Problem Solving Interface" width="600" height="400" />
-  <img src="/images/admin-dashboard.png" alt="Admin Dashboard" width="600" height="400" />
+  <img src="/contest-platform/public/images/hero.png" alt="Problem Solving Interface" />
+  <img src="/contest-platform/public/images/admin-dashboard.png" alt="Admin Dashboard" width="600" height="400" />
 </div>
 
 - 🎯 **Real-time Code Evaluation**
@@ -22,7 +22,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="/images/tech-stack.png" alt="Tech Stack" width="800" height="200" />
+  <img src="/contest-platform/public/images/tech-stack.png" alt="Tech Stack" width="800" height="200" />
 </div>
 
 ## 🚀 Quick Start
@@ -41,9 +41,9 @@ npm run dev
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="/images/contest-page.png" alt="Contest Page" width="400" height="300" />
-  <img src="/images/problem-page.png" alt="Problem Page" width="400" height="300" />
-  <img src="/images/leaderboard.png" alt="Leaderboard" width="400" height="300" />
+  <img src="/contest-platform/public/images/contest-page.png" alt="Contest Page" width="400" height="300" />
+  <img src="/contest-platform/public/images/problem-page.png" alt="Problem Page" width="400" height="300" />
+  <img src="/contest-platform/public/images/leaderboard.png" alt="Leaderboard" width="400" height="300" />
 </div>
 
 - 🛡️ Tab Switch Detection
@@ -64,13 +64,13 @@ contest-platform/
 
 ## 🤝 Contributing
 
-We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+i love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## 📞 Contact
 
 <div align="center">
   <a href="https://ganeshvath.vercel.app">
-    <img src="/images/portfolio-button.gif" alt="Portfolio" width="200" height="50" />
+    <img src="/contest-platform/public/images/portfolio-button.gif" alt="Portfolio" width="200" height="50" />
   </a>
 </div>
 
