@@ -48,10 +48,6 @@ npm run dev
 
 ## 🔒 Security Features
 
-<div align="center">
-  <img src="./public/images/security-features.png" alt="Security Features" />
-</div>
-
 - 🛡️ Tab Switch Detection
 - 🔒 Copy-Paste Prevention
 - 🔐 Session Management
