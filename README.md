@@ -1,4 +1,4 @@
-# 🚀 CodeArena - Where Code Meets Competition
+# ✨ CodeArena - Where Code Meets Competition
 
 <div align="center">
   <img src="./public/images/hero.png" alt="CodeArena Demo" />
