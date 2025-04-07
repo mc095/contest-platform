@@ -66,7 +66,7 @@ contest-platform/
 
 ## 🤝 Contributing
 
-We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+i love contributions! clone the repo and build some strong features. this'll help.
 
 ## 📞 Contact
 
