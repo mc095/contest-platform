@@ -1,15 +1,17 @@
 # 🚀 CodeArena - Where Code Meets Competition
 
 <div align="center">
-  <img src="https://placehold.co/1200x400/1a1a1a/ffffff?text=CodeArena+Demo" alt="CodeArena Demo" />
+  <img src="/images/hero.png" alt="CodeArena Demo" width="1200" height="400" />
 </div>
 
 > ⚡ A blazing-fast competitive programming platform that turns coding into an adrenaline-pumping experience!
 
 ## ✨ Why CodeArena?
 
-![Problem Solving Interface](https://placehold.co/600x400/1a1a1a/ffffff?text=Problem+Solving)
-![Admin Dashboard](https://placehold.co/600x400/1a1a1a/ffffff?text=Admin+Dashboard)
+<div align="center">
+  <img src="/images/problem-solving.png" alt="Problem Solving Interface" width="600" height="400" />
+  <img src="/images/admin-dashboard.png" alt="Admin Dashboard" width="600" height="400" />
+</div>
 
 - 🎯 **Real-time Code Evaluation**
 - 🛡️ **Anti-cheat Protection**
@@ -20,7 +22,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="https://placehold.co/800x200/1a1a1a/ffffff?text=Next.js+React+TypeScript+Tailwind" alt="Tech Stack" />
+  <img src="/images/tech-stack.png" alt="Tech Stack" width="800" height="200" />
 </div>
 
 ## 🚀 Quick Start
@@ -39,15 +41,9 @@ npm run dev
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Contest+Page" alt="Contest Page" />
-  <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Problem+Page" alt="Problem Page" />
-  <img src="https://placehold.co/400x300/1a1a1a/ffffff?text=Leaderboard" alt="Leaderboard" />
-</div>
-
-## 🔒 Security Features
-
-<div align="center">
-  <img src="https://placehold.co/800x200/1a1a1a/ffffff?text=Security+Features" alt="Security Features" />
+  <img src="/images/contest-page.png" alt="Contest Page" width="400" height="300" />
+  <img src="/images/problem-page.png" alt="Problem Page" width="400" height="300" />
+  <img src="/images/leaderboard.png" alt="Leaderboard" width="400" height="300" />
 </div>
 
 - 🛡️ Tab Switch Detection
@@ -74,7 +70,7 @@ We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to ge
 
 <div align="center">
   <a href="https://ganeshvath.vercel.app">
-    <img src="https://placehold.co/200x50/1a1a1a/ffffff?text=Visit+My+Portfolio" alt="Portfolio" />
+    <img src="/images/portfolio-button.gif" alt="Portfolio" width="200" height="50" />
   </a>
 </div>
 
