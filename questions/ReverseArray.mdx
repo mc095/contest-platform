@@ -1,0 +1,28 @@
+# Reverse Array
+
+## Problem Statement
+Given an array of integers, reverse the array in-place. You must do this without using any extra space (O(1) space complexity) and with O(n/2) time complexity.
+
+## Example
+- **Input:** `[1, 2, 3, 4, 5]`  
+- **Output:** `[5, 4, 3, 2, 1]`
+
+## Constraints
+- `1 <= arr.length <= 10^5`
+- `-10^9 <= arr[i] <= 10^9`
+
+## Solution Approach
+Use two pointers, one at the start and one at the end, and swap elements until the pointers meet in the middle.
+
+```cpp
+#include <vector>
+using namespace std;
+
+void reverseArray(vector<int>& arr) {
+    int left = 0, right = arr.size() - 1;
+    while (left < right) {
+        swap(arr[left], arr[right]);
+        left++;
+        right--;
+    }
+}
