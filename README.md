@@ -1,7 +1,7 @@
 # 🚀 CodeArena - Where Code Meets Competition
 
 <div align="center">
-  <img src="/images/hero.png" alt="CodeArena Demo" width="1200" height="400" />
+  <img src="./public/images/hero.png" alt="CodeArena Demo" />
 </div>
 
 > ⚡ A blazing-fast competitive programming platform that turns coding into an adrenaline-pumping experience!
@@ -9,8 +9,8 @@
 ## ✨ Why CodeArena?
 
 <div align="center">
-  <img src="/contest-platform/public/images/hero.png" alt="Problem Solving Interface" />
-  <img src="/contest-platform/public/images/admin-dashboard.png" alt="Admin Dashboard" width="600" height="400" />
+  <img src="./public/images/problem-solving.png" alt="Problem Solving Interface" />
+  <img src="./public/images/admin-dashboard.png" alt="Admin Dashboard" />
 </div>
 
 - 🎯 **Real-time Code Evaluation**
@@ -22,7 +22,7 @@
 ## 🛠️ Tech Stack
 
 <div align="center">
-  <img src="/contest-platform/public/images/tech-stack.png" alt="Tech Stack" width="800" height="200" />
+  <img src="./public/images/tech-stack.png" alt="Tech Stack" />
 </div>
 
 ## 🚀 Quick Start
@@ -41,9 +41,15 @@ npm run dev
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="/contest-platform/public/images/contest-page.png" alt="Contest Page" width="400" height="300" />
-  <img src="/contest-platform/public/images/problem-page.png" alt="Problem Page" width="400" height="300" />
-  <img src="/contest-platform/public/images/leaderboard.png" alt="Leaderboard" width="400" height="300" />
+  <img src="./public/images/contest-page.png" alt="Contest Page" />
+  <img src="./public/images/problem-page.png" alt="Problem Page" />
+  <img src="./public/images/leaderboard.png" alt="Leaderboard" />
+</div>
+
+## 🔒 Security Features
+
+<div align="center">
+  <img src="./public/images/security-features.png" alt="Security Features" />
 </div>
 
 - 🛡️ Tab Switch Detection
@@ -64,13 +70,13 @@ contest-platform/
 
 ## 🤝 Contributing
 
-i love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
 
 ## 📞 Contact
 
 <div align="center">
   <a href="https://ganeshvath.vercel.app">
-    <img src="/contest-platform/public/images/portfolio-button.gif" alt="Portfolio" width="200" height="50" />
+    <img src="./public/images/portfolio-button.gif" alt="Portfolio" />
   </a>
 </div>
 
