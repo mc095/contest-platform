@@ -48,10 +48,6 @@ npm run dev
 
 ## 🔒 Security Features
 
-<div align="center">
-  <img src="./public/images/security-features.png" alt="Security Features" />
-</div>
-
 - 🛡️ Tab Switch Detection
 - 🔒 Copy-Paste Prevention
 - 🔐 Session Management
@@ -70,7 +66,7 @@ contest-platform/
 
 ## 🤝 Contributing
 
-We love contributions! Check out our [Contributing Guide](CONTRIBUTING.md) to get started.
+i love contributions! clone the repo and build some strong features. this'll help.
 
 ## 📞 Contact
 
