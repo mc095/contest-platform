@@ -1,8 +1,7 @@
 import { NextResponse } from 'next/server';
 import mongoose from 'mongoose';
 
-mongoose.connect('mongodb+srv://ganeshvath:admin236484@cluster0.wdeughd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-  .catch((err) => console.error('MongoDB connection error:', err));
+const MONGODB_URI = 'mongodb+srv://ganeshvath:admin236484@cluster0.wdeughd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
 interface Participant {
   name: string;
@@ -14,13 +13,25 @@ const participantSchema = new mongoose.Schema<Participant>({
   completedAt: { type: Date, default: null },
 });
 
-const Participant = mongoose.model<Participant>('Participant', participantSchema);
+// Check if the model is already registered to prevent OverwriteModelError
+const Participant = mongoose.models.Participant || mongoose.model<Participant>('Participant', participantSchema);
 
 export async function DELETE() {
   try {
+    if (mongoose.connection.readyState !== 1) {
+      await mongoose.connect(MONGODB_URI);
+    }
+    
     await Participant.deleteMany({});
+    
     return NextResponse.json({ message: 'Data reset' });
-  } catch {
+  } catch (error) {
+    console.error('Reset error:', error);
     return NextResponse.json({ error: 'Failed to reset data' }, { status: 500 });
+  } finally {
+    // Close the connection if it was opened in this request
+    if (mongoose.connection.readyState === 1) {
+      await mongoose.connection.close();
+    }
   }
 }
